@@ -1,5 +1,4 @@
-package day1;
-import java.io.*;
+package DataTypes;
 import java.util.*;
 
 public class Solution {
