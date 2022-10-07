@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26fce17c-45c0-4758-ae63-026ae746241a" name="Changes" comment="Completed two exercises">
-      <change afterPath="$PROJECT_DIR$/src/BinaryNumbers/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoDArrays/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Inheritance.Solution">
+    <configuration name="Inheritance.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.Solution" />
+      <module name="hackerrank_30daysofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryNumbers.Solution" />
       <module name="hackerrank_30daysofcode" />
@@ -58,6 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inheritance.Solution" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
@@ -106,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665010258801</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completed two exercises">
+      <created>1665107213390</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665107213390</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
