@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26fce17c-45c0-4758-ae63-026ae746241a" name="Changes" comment="Completed one exercise">
-      <change afterPath="$PROJECT_DIR$/src/QueuesAndStacks/Solution.java" afterDir="false" />
+    <list default="true" id="26fce17c-45c0-4758-ae63-026ae746241a" name="Changes" comment="Completed two exercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665891959260</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Completed two exercises">
+      <created>1666054809669</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666054809669</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,8 +205,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Completed three exercises" />
-    <MESSAGE value="Completed two exercises" />
     <MESSAGE value="Completed one exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed one exercise" />
+    <MESSAGE value="Completed two exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed two exercises" />
   </component>
 </project>
