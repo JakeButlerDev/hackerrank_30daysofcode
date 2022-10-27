@@ -11,8 +11,18 @@ class Printer <T> {
      **/
 
     // Write your code here
-    public void printArray(A[]) {
-
+    public ArrayList<S> printArray(T[] arr) {
+//        ArrayList<String> stringArray = new ArrayList<String>();
+        ArrayList<Integer> integerArray = new ArrayList<Integer>();
+        String stringArray = "";
+        if (arr.getClass() != "class java.lang.Integer" ) {
+            System.out.println(arr.toString());
+            break;
+        } else {
+            for (int i = 0; i < arr.length; i++) {
+                stringArray += arr.get(i) + " ";
+            }
+        }
     }
 }
 
