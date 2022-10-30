@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26fce17c-45c0-4758-ae63-026ae746241a" name="Changes" comment="Completed one exercise">
+    <list default="true" id="26fce17c-45c0-4758-ae63-026ae746241a" name="Changes" comment="Debugged one exercise">
+      <change afterPath="$PROJECT_DIR$/src/binarySearchTrees/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666841746131</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Debugged one exercise">
+      <created>1666842370224</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666842370224</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +237,7 @@
     <MESSAGE value="Completed three exercises" />
     <MESSAGE value="Completed two exercises" />
     <MESSAGE value="Completed one exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed one exercise" />
+    <MESSAGE value="Debugged one exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debugged one exercise" />
   </component>
 </project>
