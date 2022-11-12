@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26fce17c-45c0-4758-ae63-026ae746241a" name="Changes" comment="Halfway through one exercise">
-      <change afterPath="$PROJECT_DIR$/src/BstTraversal/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MoreLinkedLists/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NestedLogic/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RunningTimeAndComplexity/Solution.java" afterDir="false" />
+    <list default="true" id="26fce17c-45c0-4758-ae63-026ae746241a" name="Changes" comment="Completed 7 algorithms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667096641679</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Completed 7 algorithms">
+      <created>1668049705895</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668049705895</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +252,7 @@
     <MESSAGE value="Completed one exercise" />
     <MESSAGE value="Debugged one exercise" />
     <MESSAGE value="Halfway through one exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Halfway through one exercise" />
+    <MESSAGE value="Completed 7 algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed 7 algorithms" />
   </component>
 </project>
