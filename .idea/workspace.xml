@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26fce17c-45c0-4758-ae63-026ae746241a" name="Changes" comment="Completed one algorithm">
+      <change afterPath="$PROJECT_DIR$/src/regexPattersAndDatabases/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/jakeb/OneDrive/Documents/CareerDevs/cohort18/Extracted Java files/bank&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Scope.Solution">
+  <component name="RunManager" selected="Application.regexPattersAndDatabases.Solution">
     <configuration name="Inheritance.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inheritance.Solution" />
       <module name="hackerrank_30daysofcode" />
@@ -81,8 +82,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="regexPattersAndDatabases.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="regexPattersAndDatabases.Solution" />
+      <module name="hackerrank_30daysofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regexPattersAndDatabases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.regexPattersAndDatabases.Solution" />
         <item itemvalue="Application.Scope.Solution" />
         <item itemvalue="Application.Inheritance.Solution" />
         <item itemvalue="Application.Solution" />
@@ -245,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668306426330</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Completed one algorithm">
+      <created>1668918707637</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1668918707637</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
