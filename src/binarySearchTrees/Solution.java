@@ -2,6 +2,7 @@ package binarySearchTrees;
 
 import java.util.*;
 import java.io.*;
+
 class Node{
     Node left,right;
     int data;
@@ -13,12 +14,26 @@ class Node{
 class Solution{
 
     public static int getHeight(Node root){
-        //Write your code here
-        Node leftChild = root.left;
-        Node rightChild = root.right;
-        if (root.data != )
-        // height t = 1 + max(height(leftChild), height(rightChild)));
-            // what is base case? root = element?
+
+        int rightNodeHeight = 0;
+        int leftNodeHeight = 0;
+
+        if(root == null){
+            return -1;
+        }
+
+        rightNodeHeight = getHeight(root.right);
+        rightNodeHeight++;
+        leftNodeHeight = getHeight(root.left);
+        leftNodeHeight++;
+
+
+        if (rightNodeHeight > leftNodeHeight){
+            return rightNodeHeight;
+        } else {
+            return leftNodeHeight;
+        }
+
     }
 
     public static Node insert(Node root,int data){

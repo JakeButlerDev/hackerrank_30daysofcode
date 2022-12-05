@@ -4,30 +4,44 @@ import java.util.Scanner;
 
 public class Solution {
 
-    public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        Scanner keyboard = new Scanner(System.in);
-        int cases = keyboard.nextInt();
-        keyboard.nextLine();
-        for (int i = 1; i <= cases; i++) {
-            boolean isPrime = true;
-            int x = keyboard.nextInt();
-            keyboard.nextLine();
-            if (x <= 1) {
-                isPrime = false;
-            }
-            for (int j = 2; j <(x/2); j++) {
-                if (x % j == 0) {
-                    isPrime = false;
+    public static void isPrime(int n){
+
+        if(n==0 || n== 1){
+            System.out.println("Not prime");
+        }
+        else if(n==2){
+            System.out.println("Prime");
+        }
+        else{
+            boolean result = true;
+            for(int i= 2; i<= n/2; i++){
+                if(n%i == 0){
+                    result = false;
                     break;
                 }
             }
-            if (isPrime) {
+
+            if(result == true){
                 System.out.println("Prime");
-            } else {
+            }
+            else{
                 System.out.println("Not prime");
             }
         }
     }
-}
 
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc = new Scanner(System.in);
+
+        int T = sc.nextInt();
+
+        while(T-- >0){
+
+            int n = sc.nextInt();
+            isPrime(n);
+        }
+
+        sc.close();
+    }
+}

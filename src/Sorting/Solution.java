@@ -24,25 +24,34 @@ public class Solution {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        // Write your code here
-        for (int i = 0; i < n; i++) {               // [3 2 1]
-            // Track number of elements swapped during a single array traversal
-            int numberOfSwaps = 0;
+        int numSwaps = 0;
+        int endPosition = a.size() - 1;
+        //System.out.println(endPosition);
+        int swapPosition;
 
-            if (a.get(i) > a.get(i+1)) {
-                Collections.swap(a, a.get(i), a.get(i+1));
-                numberOfSwaps++;
+        while( endPosition > 0 ) {
+            swapPosition = 0;
+
+            for(int i = 0; i < endPosition; i++) {
+
+                if( a.get(i) > a.get(i + 1) ){
+                    // Swap elements 'i' and 'i + 1':
+                    int tmp = a.get(i);
+                    a.set(i, a.get(i + 1));
+                    a.set(i + 1, tmp);
+                    numSwaps++;
+
+                    swapPosition = i;
+                }
+
             }
 
-            // If no elements were swapped during a traversal, array is sorted
-            if (numberOfSwaps == 0) {
-                break;
-            }
-            System.out.println("Array is sorted in " + numberOfSwaps + " swaps.");
-            System.out.println("First Element: " + a.get(0));
-            System.out.println("Last Element: " + a.get(a.size()));
+            endPosition = swapPosition;
         }
 
+        System.out.println("Array is sorted in " + numSwaps + " swaps.");
+        System.out.println("First Element: " + a.get(0));
+        System.out.println("Last Element: " + a.get(a.size()-1));
 
 
         bufferedReader.close();
