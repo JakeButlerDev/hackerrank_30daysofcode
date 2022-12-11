@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26fce17c-45c0-4758-ae63-026ae746241a" name="Changes" comment="Completed one algorithm">
+    <list default="true" id="26fce17c-45c0-4758-ae63-026ae746241a" name="Changes" comment="Pulled solutions from HR account to local project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BstTraversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BstTraversal/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoreExceptions/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoreExceptions/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoreLinkedLists/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoreLinkedLists/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunningTimeAndComplexity/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunningTimeAndComplexity/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binarySearchTrees/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarySearchTrees/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/regexPattersAndDatabases/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/regexPattersAndDatabases/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testing/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testing/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669759311114</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Pulled solutions from HR account to local project">
+      <created>1670279019381</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1670279019381</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,6 +312,7 @@
     <MESSAGE value="Completed 7 algorithms" />
     <MESSAGE value="Pseudocoded one algorithm" />
     <MESSAGE value="Completed one algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed one algorithm" />
+    <MESSAGE value="Pulled solutions from HR account to local project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pulled solutions from HR account to local project" />
   </component>
 </project>
